@@ -1,0 +1,51 @@
+body {
+    background-color: darkslategray;
+  
+}
+
+header {
+    background-color: blueviolet;
+    border: solid 2px black;
+    margin-bottom: 75px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+header p {
+    text-align: center;
+}
+
+nav {
+    border: solid 2px pink;
+    text-align: right;
+    
+    
+    
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+aside {
+    background-color: cadetblue;
+}
+
+main {
+    background-color: beige;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 75px;
+}
+
