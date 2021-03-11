@@ -1,12 +1,24 @@
 body {
     background-color: darkslategray;
-  
 }
 
 header {
     background-color: blueviolet;
     border: solid 2px black;
     margin-bottom: 75px;
+    background-image: url("Images/Skyline.jpeg");
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+header a:hover {
+    color: red;
 }
 
 h1 {
@@ -16,25 +28,23 @@ h1 {
 
 header p {
     text-align: center;
+    font-size: 20px;
 }
 
 nav {
     border: solid 2px pink;
     text-align: right;
-    
-    
-    
 }
 
 ul {
     list-style: none;
-    
 }
 
 li {
     display: inline;
     padding: 20px;
 }
+
 
 aside {
     background-color: cadetblue;
@@ -48,4 +58,3 @@ main {
     display: flex;
     margin-bottom: 75px;
 }
-
