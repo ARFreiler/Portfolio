@@ -77,11 +77,12 @@
       </aside>
       <main id="port" class="col-sm-9">
         <div id="project">
-          <img
-            id="horiseon"
-            src="Images/horiseon.jpg"
-            alt="Horiseon Homepage"
-          />
+          <a href="https://arfreiler.github.io/Horiseon/">
+            <img
+              id="horiseon"
+              src="Images/horiseon.jpg"
+              alt="Horiseon Homepage"
+          /></a>
           <h2>Horiseon</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
@@ -96,7 +97,9 @@
           >
         </div>
         <div>
-          <img id="landing" src="Images/landing.jpg" alt="Landing Page" />
+          <a href="https://arfreiler.github.io/LandingPage/">
+            <img id="landing" src="Images/landing.jpg" alt="Landing Page"
+          /></a>
           <h2>Landing Page</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit,
@@ -118,26 +121,51 @@
       </aside>
       <main class="col-sm-9" id="contact">
         <div class="container">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="fname">First Name</label>
-    <input type="text" id="company" name="company" placeholder="Your company..">
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
 
-    <input type="submit" value="Submit">
-        </form>
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="company">Company</label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              placeholder="Your company.."
+            />
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
         </div>
-        <i class="fab fa-github-square fa-3x"></i>
-        <i class="fab fa-facebook-square fa-3x"></i>
-        <i class="fab fa-linkedin fa-3x"></i>
-        <i class="fab fa-instagram-square fa-3x"></i>
-        <i class="fas fa-envelope-square fa-3x"></i>
+        <div class="icons">
+          <a id="icons" href="https://github.com/ARFreiler"
+            ><i class="fab fa-github-square fa-3x"></i
+          ></a>
+          <a id="icons" href=""><i class="fab fa-linkedin fa-3x"></i></a>
+          <a id="icons" href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+          <a id="icons" href=""
+            ><i class="fab fa-instagram-square fa-3x"></i
+          ></a>
+          <a id="icons" href=""><i class="fas fa-envelope-square fa-3x"></i></a>
+        </div>
       </main>
     </div>
   </body>

@@ -17,7 +17,6 @@ header {
     /* border: solid 2px black; */
     color: black;
     font-family: 'Great Vibes', cursive;
-    
 }
 
 header a {
@@ -31,8 +30,8 @@ header a:hover {
     color: red;
 }
 
- header h1 {
-     font-size: 50px;
+header h1 {
+    font-size: 50px;
     text-align: center;
     /* text-decoration: underline; */
     padding-top: 45px;
@@ -126,4 +125,37 @@ input[type=text], textarea {
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+}
+
+input[type=submit] {
+    padding: 3px 5px;
+    border: solid 1px black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+i {
+    padding-right: 20px;
+    
+    
+}
+
+i:hover {
+    color:red;
+    cursor: pointer;
+}
+
+.icons {
+    margin-left: 240px;
+   
+}
+
+#icons {
+    color: black;
 }
