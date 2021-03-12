@@ -14,10 +14,10 @@ body a {
 header {
     height: 225px;
     width: 100%;
-    /* border: solid 2px black; */
     color: black;
     font-family: 'Great Vibes', cursive;
 }
+
 
 header a {
     color: black;
@@ -158,4 +158,11 @@ i:hover {
 
 #icons {
     color: black;
+}
+
+#selfie {
+    float:left;
+    height: 130px;
+    width: 75px;
+    margin-right: 10px;
 }
