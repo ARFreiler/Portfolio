@@ -16,6 +16,7 @@ header {
     width: 100%;
     color: black;
     font-family: 'Great Vibes', cursive;
+    border-bottom: solid rgb(13, 83, 100);
 }
 
 
@@ -74,12 +75,13 @@ main {
 
 h2 {
     text-decoration: underline;
+    text-decoration-color: rgb(13, 83, 100);
 }
 
 .row {
     display: flex;
     padding-bottom: 75px;
-    border-bottom: solid black;
+    border-bottom: solid rgb(13, 83, 100);
 }
 
 .img {
@@ -165,4 +167,5 @@ i:hover {
     height: 130px;
     width: 75px;
     margin-right: 10px;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
