@@ -3,7 +3,7 @@ body {
 }
 
 body a:hover {
-    color:  red;
+    color: red;
 }
 
 body a {
@@ -12,31 +12,39 @@ body a {
 }
 
 header {
-    height: 200px;
-    border: solid 2px black;
-    background-image: url("Images/Skyline.jpeg");
+    height: 225px;
+    width: 100%;
+    /* border: solid 2px black; */
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    
 }
 
 header a {
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 header a:hover {
     color: red;
 }
 
-h1 {
+ header h1 {
+     font-size: 50px;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     padding-top: 45px;
+    color: black;
+    font-weight: bolder;
 }
 
 header p {
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
 }
 
 header nav {
@@ -65,20 +73,22 @@ main {
     padding-top: 75px;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 .row {
     display: flex;
     padding-bottom: 75px;
-    border: solid 2px black;
+    border-bottom: solid black;
 }
 
 .img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   
-   width: 65%;
-   box-shadow: 10px 10px 5px rgb(27, 95, 80);
-   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
 .col-sm-3 {
@@ -88,19 +98,32 @@ main {
 #horiseon {
     height: 500px;
     width: auto;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
 #landing {
     height: 375px;
     width: auto;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
 .links {
     color: black;
-    
 }
 
 #project {
     padding-bottom: 25px;
 }
 
+input[type=text], textarea {
+    display: block;
+    width: 50%;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}

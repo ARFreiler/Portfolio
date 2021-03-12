@@ -10,9 +10,18 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/42289e799c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Ashleigh Freiler</title>
   </head>
-  <header>
+  <header style="background-image: url('Images/wood.jpg')">
     <h1>Ashleigh Freiler</h1>
     <p>An evolving human seeking knowledge in all things great and small.</p>
     <nav>
@@ -68,8 +77,12 @@
       </aside>
       <main id="port" class="col-sm-9">
         <div id="project">
-          <img id="horiseon" src="Images/horiseon.jpg" alt="Horiseon Homepage" />
-          <h2 >Horiseon</h2>
+          <img
+            id="horiseon"
+            src="Images/horiseon.jpg"
+            alt="Horiseon Homepage"
+          />
+          <h2>Horiseon</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
             quia. Dolorem libero, veritatis dolores labore sed explicabo itaque
@@ -78,7 +91,9 @@
             voluptatem aperiam nulla possimus vero nesciunt maxime consequuntur
             autem voluptatum minus at pariatur laudantium. Ducimus, laborum.
           </p>
-          <a class="links" href="https://arfreiler.github.io/Horiseon/">Visit Horiseon</a>
+          <a class="links" href="https://arfreiler.github.io/Horiseon/"
+            >Visit Horiseon</a
+          >
         </div>
         <div>
           <img id="landing" src="Images/landing.jpg" alt="Landing Page" />
@@ -91,19 +106,39 @@
             repellendus. Possimus, id optio beatae voluptates dolorem incidunt
             debitis maxime adipisci inventore saepe doloribus fugiat.
           </p>
-          <a class="links" href="https://arfreiler.github.io/LandingPage/">Visit Landing Page</a>
+          <a class="links" href="https://arfreiler.github.io/LandingPage/"
+            >Visit Landing Page</a
+          >
         </div>
       </main>
     </div>
     <div class="row">
-        <aside class="col-sm-3">
-            <img class="img" src="Images/contact.jpg" alt="Contact Me">
-        </aside>
-        <main class="col-sm-9" id="contact">
+      <aside class="col-sm-3">
+        <img class="img" src="Images/contact.jpg" alt="Contact Me" />
+      </aside>
+      <main class="col-sm-9" id="contact">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="fname">First Name</label>
+    <input type="text" id="company" name="company" placeholder="Your company..">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-        </main>
-        
-
+    <input type="submit" value="Submit">
+        </form>
+        </div>
+        <i class="fab fa-github-square fa-3x"></i>
+        <i class="fab fa-facebook-square fa-3x"></i>
+        <i class="fab fa-linkedin fa-3x"></i>
+        <i class="fab fa-instagram-square fa-3x"></i>
+        <i class="fas fa-envelope-square fa-3x"></i>
+      </main>
     </div>
   </body>
 </html>
