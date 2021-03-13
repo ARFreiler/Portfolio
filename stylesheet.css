@@ -70,7 +70,7 @@ aside {
     padding-top: 75px;
 }
 
-main {
+section {
     padding-top: 75px;
 }
 
@@ -154,12 +154,12 @@ i:hover {
     cursor: pointer;
 }
 
-.icons {
+#icons {
     margin-left: 240px;
    
 }
 
-#icons {
+.icons {
     color: black;
 }
 
