@@ -40,7 +40,11 @@ Open index.html in Chrome.
 
 ## Links
 
+[Github Repository](https://github.com/ARFreiler)
 
+[Deployed Portfolio](https://arfreiler.github.io/Portfolio/)
+
+![Portfolio](https://user-images.githubusercontent.com/75546695/111043804-9fc99c80-8412-11eb-8027-fc2b093c65f5.png)
 
 ## License
 
