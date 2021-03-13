@@ -70,9 +70,9 @@ aside {
     padding-top: 75px;
 }
 
-section {
+/* section {
     padding-top: 75px;
-}
+} */
 
 h2 {
     text-decoration: underline;
@@ -95,6 +95,10 @@ h2 {
 
 .col-sm-3 {
     align-self: center;
+}
+
+.col-sm-9 {
+    padding-top: 75px;
 }
 
 #horiseon {
