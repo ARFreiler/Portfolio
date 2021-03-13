@@ -11,31 +11,21 @@ body a {
     text-decoration: none;
 }
 
+.content {
+    background-color: darkcyan;
+}
+
 header {
     height: 225px;
     width: 100%;
     color: black;
     font-family: 'Great Vibes', cursive;
     border-bottom: solid rgb(13, 83, 100);
-    
-}
-
-
-header a {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bolder;
-}
-
-header a:hover {
-    color: red;
 }
 
 header h1 {
     font-size: 50px;
     text-align: center;
-    /* text-decoration: underline; */
     padding-top: 45px;
     color: black;
     font-weight: bolder;
@@ -50,7 +40,7 @@ header p {
 
 header nav {
     text-align: right;
-    /* padding-right: 20px; */
+    padding-right: 20px;
 }
 
 ul {
@@ -62,27 +52,29 @@ li {
     padding-left: 30px;
 }
 
-.content {
-    background-color: darkcyan;
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
-aside {
-    padding-top: 75px;
-}
-
-/* section {
-    padding-top: 75px;
-} */
-
-h2 {
-    text-decoration: underline;
-    text-decoration-color: rgb(13, 83, 100);
+header a:hover {
+    color: red;
 }
 
 .row {
     display: flex;
     padding-bottom: 75px;
     border-bottom: solid rgb(13, 83, 100);
+}
+
+aside {
+    padding-top: 75px;
+}
+
+.col-sm-3 {
+    align-self: center;
 }
 
 .img {
@@ -93,12 +85,20 @@ h2 {
     box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
-.col-sm-3 {
-    align-self: center;
-}
-
 .col-sm-9 {
     padding-top: 75px;
+}
+
+#selfie {
+    float: left;
+    height: 130px;
+    width: 75px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
+}
+
+#project {
+    padding-bottom: 25px;
 }
 
 #horiseon {
@@ -108,20 +108,21 @@ h2 {
     box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
-#landing {
-    height: 375px;
-    width: auto;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    box-shadow: 10px 10px 5px rgb(27, 95, 80);
+h2 {
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 83, 100);
 }
 
 .links {
     color: black;
 }
 
-#project {
-    padding-bottom: 25px;
+#landing {
+    height: 375px;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
 
 input[type=text], textarea {
@@ -149,28 +150,17 @@ input[type=submit]:hover {
 
 i {
     padding-right: 20px;
-    
-    
 }
 
 i:hover {
-    color:red;
+    color: red;
     cursor: pointer;
 }
 
 #icons {
     margin-left: 240px;
-   
 }
 
 .icons {
     color: black;
-}
-
-#selfie {
-    float:left;
-    height: 130px;
-    width: 75px;
-    margin-right: 10px;
-    box-shadow: 10px 10px 5px rgb(27, 95, 80);
 }
