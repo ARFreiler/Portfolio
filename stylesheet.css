@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategray;
+    background-color: darkcyan;
 }
 
 body a:hover {
@@ -62,7 +62,7 @@ li {
     padding-left: 30px;
 }
 
-.body {
+.content {
     background-color: darkcyan;
 }
 
