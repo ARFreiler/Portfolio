@@ -1,20 +1,21 @@
 import React from 'react';
 
+
 const Header = () => {
     return (
-        <header>
-            <div className="into">
-                <h1>Ashleigh Freiler</h1>
-                <p>an evolving human in all things great and small</p>
+        <header className="header">
+            <div className="intro">
+                <h1 id="intro-name">Ashleigh Freiler</h1>
+                <p id="intro-text">an evolving human in all things great and small</p>
             </div>
-            <nav>
-                <a className="nav-links"></a>
-                <ul className="nav-list">
-                    <li className="nav-item">Home</li>
-                    <li className="nav-item">My Work</li>
-                    <li className="nav-item">Contact</li>
-                </ul>
-            </nav>
+            <div className="nav">
+                <div className="nav-links">
+                    <button className="nav-link">Home</button>
+                    <button className="nav-link">About Me</button>
+                    <button className="nav-link">My Work</button>
+                    <button className="nav-link">Contact</button>
+                </div>
+            </div>
         </header>
     )
 }
