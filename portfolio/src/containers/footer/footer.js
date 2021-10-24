@@ -1,5 +1,5 @@
 import React from 'react';
-import '../footer/footer.css'
+import './footer.css'
 
 import { FaTwitter } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
