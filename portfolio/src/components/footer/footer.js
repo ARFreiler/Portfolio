@@ -10,15 +10,16 @@ const Footer = () => {
         <footer className="footer">
             <div className="icons">
                 <div className="icon">
-                    <a href="https://twitter.com/AshleighFreiler"><FaTwitter size={30} /></a>
+                    <a href="https://twitter.com/AshleighFreiler"><FaTwitter size={40} /></a>
                 </div>
                 <div className="icon">
-                    <a href="https://github.com/ARFreiler"><FaGithub size={30} /></a>
+                    <a href="https://github.com/ARFreiler"><FaGithub size={40} /></a>
                 </div>
                 <div className="icon">
-                    <a href="https://linkedin.com/in/ashleighfreiler"><FaLinkedin size={30} /></a>
+                    <a href="https://linkedin.com/in/ashleighfreiler"><FaLinkedin size={40} /></a>
                 </div>
             </div>
+            <p className="footer-text">Copyright © Rose Ash Tech 2021</p>
 
         </footer>
     )
