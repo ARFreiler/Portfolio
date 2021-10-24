@@ -48,6 +48,10 @@ span {
     border-radius: 5px;
 }
 
+.hidden {
+    display: none;
+}
+
 .nav-link:hover {
     background: rgb(250, 186, 44);
     color: rgb(0, 0, 0);
