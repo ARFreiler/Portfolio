@@ -10,15 +10,19 @@
 .icons {
     display: flex;
     gap: 50px;
-    background: rgb(50, 54, 61);
+    background: rgb(50, 52, 59);
     padding-top: 15px;
 }
 
 a {
-    color: rgb(235, 235, 235);
+    color: rgb(208, 220, 237);
 }
 
 a:hover {
-    color: rgb(19, 164, 171);
+    color: rgb(130, 137, 160);
     cursor: pointer;
+}
+
+.footer-text {
+    color: rgb(208, 220, 237)
 }

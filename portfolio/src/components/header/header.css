@@ -2,11 +2,12 @@
     /* width: 100vw; */
     justify-content: space-between;
     display: flex;
-    background: rgb(0, 0, 0);
+    background: rgb(50, 52, 59)
 }
 
 .intro {
-    color: rgb(255, 255, 255);
+    color: rgb(130, 137, 160);
+    -webkit-text-stroke: 1px rgb(239, 241, 247);
     display: flex;
     flex-direction: column;
 }
@@ -42,9 +43,11 @@ span {
 .nav-link {
     min-width: 80px;
     padding: 4px 12px;
-    background: rgb(0, 0, 0);
-    color: rgb(250, 186, 44);
-    border: 1px solid rgb(250, 186, 44);
+    background: rgb(208, 220, 237);
+    color: rgb(50, 52, 59);
+    font-size: 12px;
+    font-weight: 550;
+    border: 1px solid rgb(235, 235, 235);
     border-radius: 5px;
 }
 
@@ -53,7 +56,7 @@ span {
 }
 
 .nav-link:hover {
-    background: rgb(250, 186, 44);
-    color: rgb(0, 0, 0);
+    background: rgb(130, 137, 160);
+    color: rgb(239, 241, 247);
     cursor: pointer;
 }
