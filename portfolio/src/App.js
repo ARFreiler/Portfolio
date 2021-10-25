@@ -5,7 +5,7 @@ import Footer from './containers/footer/footer';
 import Home from './scenes/home';
 // import About from './scenes/about';
 // import Work from './scenes/work';
-// import Contact from './scenes/contact';
+import Contact from './scenes/contact';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      {/* <Contact /> */}
+      <Contact />
       {/* <About />
       <Work /> */}
       <Footer />
