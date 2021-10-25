@@ -13,19 +13,22 @@ const Contact = () => {
             <div className="mail-container">
                 <h2>Get in touch!</h2>
                 <p className="contact-text">If you have a question, would like to collaborate, or just share a thought, please feel free to drop me a line.</p>
+                <p className="contact-text">Thoughtful conversation and potential opportunities to grow or learn are always welcome.</p>
                 <button className="email-button">Write Ashleigh</button>
             </div>
             <div className="alt-links">
-                <h3>Find Ashleigh elsewhere</h3>
+                <h2>Find Ashleigh elsewhere</h2>
                 <hr />
-                <ul className="link-list">
-                    <li className="list-link"><a href=""></a>LinkedIn</li>
-                    <li className="list-link"><a href=""></a>LinkedIn</li>
-                </ul>
-                <ul className="link-list">
-                    <li className="list-link"><a href=""></a>LinkedIn</li>
-                    <li className="list-link"><a href=""></a>LinkedIn</li>
-                </ul>
+                <div className="link-list">
+                    <ul>
+                        <li className="list-link"><a href=""></a>LinkedIn</li>
+                        <li className="list-link"><a href=""></a>GitHub</li>
+                    </ul>
+                    <ul>
+                        <li className="list-link"><a href=""></a>Unsplash</li>
+                        <li className="list-link"><a href=""></a>Instagram</li>
+                    </ul>
+                </div>
             </div>
 
         </div>
