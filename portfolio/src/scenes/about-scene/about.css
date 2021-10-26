@@ -1,6 +1,24 @@
-.about-content {
-    margin-top: -25px;
-    min-height: 600px;
-    /* background-image: linear-gradient(rgb(130, 137, 160), rgb(235, 235, 235), rgb(208, 220, 237)); */
-    background: red;
+.about-container {
+    position: absolute;
+    top: 20px;
+    bottom: 40px;
+    width: 100%;
+    margin-left: -8px;
 }
+
+.about-content {
+    /* height: 70vh; */
+    margin-top: -25px;
+    /* min-height: 600px; */
+    background-image: linear-gradient(rgb(130, 137, 160), rgb(235, 235, 235), rgb(208, 220, 237));
+    min-height: 100%;
+    height: auto !important;
+    /*Cause footer to stick to bottom in IE 6*/
+    height: 100%;
+    margin: -25px auto -50px;
+    /*Allow for footer height*/
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.about-content-text {}
