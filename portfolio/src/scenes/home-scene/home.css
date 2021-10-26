@@ -1,5 +1,9 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    background: orange;
+}
+
+.content {
+    min-height: 100vh;
+    font-family: 'Assistant', sans-serif;
 }
