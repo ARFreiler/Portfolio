@@ -1,18 +1,18 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from "react-router-dom";
-import { StyledLink } from "../src/styles";
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Switch,
+// } from "react-router-dom";
+// import { StyledLink } from "../src/styles";
 
 import './App.css';
 
 // import Header from './containers/header/header';
 // import Footer from './containers/footer/footer';
-import Home from './scenes/home-scene/home';
-import About from './scenes/about-scene/about';
-import Work from './scenes/work/work';
+// import Home from './scenes/home-scene/home';
+// import About from './scenes/about-scene/about';
+// import Work from './scenes/work/work';
 import Contact from './scenes/contact-scene/contact';
 
 
@@ -32,7 +32,12 @@ import Contact from './scenes/contact-scene/contact';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Header /> */}
+      {/* <About />, */}
+      <Contact />
+      {/* <About />, */}
+      {/* <Footer /> */}
+      {/* <Router>
         <nav>
           <StyledLink to="/scenes/home-scene/home">Home</StyledLink>
           <StyledLink to="/scenes/about-scene/about">About Me</StyledLink>
@@ -54,7 +59,7 @@ function App() {
           </Route>
 
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }

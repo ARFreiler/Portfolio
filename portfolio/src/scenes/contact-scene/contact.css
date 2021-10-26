@@ -3,9 +3,14 @@
     /* background-color: rgb(130, 137, 160); */
     background-image: linear-gradient(rgb(130, 137, 160), rgb(208, 220, 237));
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     font-family: 'Assistant', sans-serif;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
 }
 
 .mail-container {
