@@ -1,5 +1,5 @@
 .contact-container {
-    min-height: 400px;
+    min-height: 100vh;
     /* background-color: rgb(130, 137, 160); */
     background-image: linear-gradient(rgb(130, 137, 160), rgb(208, 220, 237));
     display: flex;
@@ -63,7 +63,11 @@ hr {
     font-weight: 500;
 }
 
-li:hover {
+a {
+    text-decoration: none;
+}
+
+a:hover {
     color: rgb(50, 52, 59);
     cursor: pointer;
 }

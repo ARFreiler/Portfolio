@@ -18,12 +18,13 @@ const Contact = () => {
                 <hr />
                 <div className="link-list">
                     <ul>
-                        <li className="list-link"><a href=""></a>LinkedIn</li>
-                        <li className="list-link"><a href=""></a>GitHub</li>
+
+                        <li className="list-link"><a href="https://www.linkedin.com/in/ashleighfreiler">LinkedIn</a></li>
+                        <li className="list-link"><a href="https://github.com/ARFreiler">GitHub</a></li>
                     </ul>
                     <ul>
-                        <li className="list-link"><a href=""></a>Unsplash</li>
-                        <li className="list-link"><a href=""></a>Instagram</li>
+                        <li className="list-link"><a href="https://unsplash.com/@arfreiler">Unsplash</a></li>
+                        <li className="list-link"><a href="https://www.instagram.com/ashleigh_freiler">Instagram</a></li>
                     </ul>
                 </div>
             </div>
